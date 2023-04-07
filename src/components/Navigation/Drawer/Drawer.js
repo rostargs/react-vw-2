@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const links = [
     {to: '/', label: 'Список' , exact: true},
     {to: '/auth', label: 'Авторизація' , exact: false},
-    {to: '/quiz-creator', label: 'Стоврити текст' , exact: false}
+    {to: '/quiz-creator', label: 'Створити тест' , exact: false}
 ]
 
 export class Drawer extends Component{
